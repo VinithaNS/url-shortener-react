@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.pwd{
+	position: relative;
+}
+.p-viewer {
+	z-index: 9999;
+	position: absolute;
+	top: 25%;
+	right: 10px;
+  cursor: pointer;
+}
+
+.fa-eye {
+	color: #000;
+  margin-top: 128px;
+  margin-right: 50px;
+}
+@media screen and (max-width:400px) {
+  .fa-eye {
+      margin-bottom: 40px;
+  }
+}
